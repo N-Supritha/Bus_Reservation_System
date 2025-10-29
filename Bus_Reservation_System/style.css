@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #00b4db, #0083b0);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form label, .form input {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  input, button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+  }
+  
+  button {
+    background: #00416a;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .bus-list, .booking {
+    margin-top: 20px;
+  }
+  
+  .bus {
+    background: #0074D9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .bus button {
+    background: #2ECC40;
+  }

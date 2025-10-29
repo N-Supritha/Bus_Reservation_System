@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bus Reservation System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🚌 Bus Reservation System</h1>
+
+    <div class="form">
+      <label>From:</label>
+      <input type="text" id="from" placeholder="Enter source">
+
+      <label>To:</label>
+      <input type="text" id="to" placeholder="Enter destination">
+
+      <label>Date:</label>
+      <input type="date" id="date">
+
+      <button id="searchBtn">Search Bus</button>
+    </div>
+
+    <div id="busList" class="bus-list"></div>
+
+    <div id="booking" class="booking"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
